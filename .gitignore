@@ -1,0 +1,13 @@
+# SM ignore npm.
+node_modules
+
+# SM Build files
+dist/
+
+# SM lock files
+yarn.lock
+package-lock.json
+
+# Project ignore below
+# script.js
+# index.html

@@ -3,23 +3,25 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>AgungDB Movie</title>
+        <title>Agung OMDB API</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     </head>
     <body>
         <div class="container">
             <div class="row mt-5">
                 <div class="col">
-                    <h1>database film</h1>
+                    <h1>Cari pilem</h1>
                 </div>
             </div>
 
             <div class="input-group mb-3">
-                <input type="text" class="form-control input-keyword" placeholder="Movie name..." />
-                <button class="btn btn-primary search-button" type="button" id="button-addon2">Search</button>
+                <input type="text" class="form-control input-keyword" id="search" placeholder="Masukkan judul film..." />
+                <button class="btn btn-primary search-button" type="button" id="button-addon2">Cari</button>
             </div>
 
-            <div class="row movie-container"></div>
+            <div class="row movie-container">
+                
+            </div>
         </div>
 
         <!-- Button trigger modal -->
