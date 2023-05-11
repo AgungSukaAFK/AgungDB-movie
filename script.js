@@ -28,7 +28,6 @@ const keyword = document.querySelector(".input-keyword");
 document.addEventListener("keyup", e => {
     if(e.key == "/"){
         keyword.focus();
-        // keyword.preventDefault();
     }
 })
 
@@ -127,7 +126,7 @@ async function sama () {
         movieContainer.innerHTML = `
         <div class="text-center">
             <h1 class="mb-5">${err}</h1>
-            <img src="./Chopper.jpg" width="550">
+            <img src="./error.jpg" width="550">
         </div>`;
     }
 }
