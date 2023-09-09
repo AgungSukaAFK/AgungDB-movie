@@ -1,4 +1,4 @@
 # AgungDB-movie
 web movie database
 
-Preview -> agungomdgb.rf.gd
+[Preview website](http://agungomdb.rf.gd)
