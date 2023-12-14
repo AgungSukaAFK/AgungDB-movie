@@ -45,7 +45,7 @@ document.addEventListener("click", async function (e) {
 
 
 function getMovies(keyword) {
-    return fetch(api + "t=" + keyword)
+    return fetch(api + "s=" + keyword)
         .then((response) => {
             if (!response.ok) {
                 throw new Error(response.statusText);
