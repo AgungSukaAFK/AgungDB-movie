@@ -1,4 +1,4 @@
-const api = "http://www.omdbapi.com/?apikey=3711fd61&"
+const api = "https://www.omdbapi.com/?apikey=3711fd61&"
 
 // fetch refactor
 const searchButton = document.querySelector(".search-button");              //select BTN di doc
