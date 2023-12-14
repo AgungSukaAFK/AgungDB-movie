@@ -1,4 +1,4 @@
-const api = "http://www.omdbapi.com/?i=tt3896198&apikey=3711fd61="
+const api = "http://www.omdbapi.com/?apikey=3711fd61&"
 
 // fetch refactor
 const searchButton = document.querySelector(".search-button");              //select BTN di doc
@@ -45,7 +45,7 @@ document.addEventListener("click", async function (e) {
 
 
 function getMovies(keyword) {
-    return fetch(api + keyword)
+    return fetch(api + "t=" + keyword)
         .then((response) => {
             if (!response.ok) {
                 throw new Error(response.statusText);
@@ -72,7 +72,7 @@ function updateUi(movies) {
 }
 
 function getMovieDetail(movieId) {
-    return fetch(api + movieId)
+    return fetch(api + "i=" + movieId)
         .then((response) => response.json())
         .then((e) => e);
 }
